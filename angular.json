@@ -93,12 +93,19 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/ngx-owl-carousel-o/lib/styles/prebuilt-themes/owl.carousel.min.css",
+              "node_modules/ngx-owl-carousel-o/lib/styles/prebuilt-themes/owl.theme.default.min.css",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/tailwind-elements.js"
+            ]
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "b40e5e46-21c4-48a0-8886-8dcdb8d54016"
   }
 }
